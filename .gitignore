@@ -1,0 +1,15 @@
+# Ignorar variáveis de ambiente (contém os teus tokens e chaves)
+.env
+
+# Ignorar pastas de ambiente virtual do Python (caso existam)
+venv/
+env/
+
+# Ignorar ficheiros de cache e sistema do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar ficheiros de logs locais
+*.log
