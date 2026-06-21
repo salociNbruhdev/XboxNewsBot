@@ -125,6 +125,9 @@ async def monitorar_reddit():
             embed.add_field(name="Autor", value=autor, inline=True)
             embed.set_footer(text="Plug & Play XNews • Monitoramento Ativo")
             
+role_id = config.get("reddit_role")
+            mention = f"<@&{role_id}>" if role_id else ""
+
             await canal.send(embed=embed)
             mark_as_processed(post_id, "reddit_processed.json")
             
