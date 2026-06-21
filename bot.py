@@ -3,54 +3,59 @@ import json
 import logging
 import asyncio
 import discord
-from discord.ext import commands
+import feedparser
+import aiohttp
+from discord.ext import commands, tasks
 from dotenv import load_dotenv
 from google import genai
 
 # ==========================================
 # CONFIGURAÇÕES E INICIALIZAÇÃO
-# ====================  ======================
+# ==========================================
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - [%(levelname)s] - %(message)s')
 load_dotenv()
 
-# Carregar variáveis de ambiente
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-# Inicializar IA e Bot
 client = genai.Client(api_key=GEMINI_API_KEY)
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-# Carregar config de canais e roles (config.json)
 try:
     with open("config.json", "r", encoding="utf-8") as f:
         config = json.load(f)
 except:
-    config = {"source_channel": 0, "dest_channel": 0, "roles": {}}
+    config = {"source_channel": 0, "dest_channel": 0, "reddit_channel": 0, "roles": {}}
 
 # ==========================================
 # FUNÇÕES DE APOIO
 # ==========================================
-def mark_as_processed(message_id):
-    """Guarda o ID da mensagem para evitar duplicação."""
+def mark_as_processed(message_id, filename="processed.json"):
+    """Guarda o ID da mensagem/post para evitar duplicação."""
     data = {"processed": []}
-    if os.path.exists("processed.json"):
+    if os.path.exists(filename):
         try:
-            with open("processed.json", "r", encoding="utf-8") as f:
+            with open(filename, "r", encoding="utf-8") as f:
                 data = json.load(f)
         except: pass
     
-    data["processed"].append(message_id)
-    # Mantém apenas os últimos 500 para não encher o disco
-    data["processed"] = data["processed"][-500:] 
-    with open("processed.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+    if message_id not in data["processed"]:
+        data["processed"].append(message_id)
+        # Mantém apenas os últimos 500 para não encher o disco
+        data["processed"] = data["processed"][-500:] 
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+
+def is_processed(message_id, filename="processed.json"):
+    if not os.path.exists(filename): return False
+    with open(filename, "r", encoding="utf-8") as f:
+        try: data = json.load(f)
+        except: return False
+    return message_id in data.get("processed", [])
 
 async def processar_changelog_ia(projeto, texto):
-    """Resumo via IA com tratamento automático de limite de taxa."""
-    # Adicionado comando de concisão no final do prompt
     prompt = f"Traduza para português BR e crie um resumo organizado em tópicos curtos para o projeto {projeto.upper()}. Seja conciso e limite o resumo a no máximo 1500 caracteres. Aqui está o conteúdo:\n\n{texto}"
     
     for tentativa in range(3):
@@ -63,35 +68,88 @@ async def processar_changelog_ia(projeto, texto):
             return response.text
         except Exception as e:
             if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
-                await asyncio.sleep(3) # Espera 3s e tenta de novo
+                await asyncio.sleep(3)
                 continue
             logging.error(f"Erro IA: {e}")
             return None
     return None
 
 # ==========================================
+# SISTEMA DO REDDIT (SEM API OFICIAL)
+# ==========================================
+async def fetch_reddit_rss(subreddit):
+    """Busca os melhores posts do dia via RSS."""
+    # Mudamos de /new.rss para /top.rss?t=day
+    url = f"https://www.reddit.com/r/{subreddit}/top.rss?t=day"
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url, headers=headers) as response:
+            if response.status == 200:
+                text = await response.text()
+                feed = await asyncio.to_thread(feedparser.parse, text)
+                return feed.entries
+    return []
+
+@tasks.loop(hours=8)
+async def monitorar_reddit():
+    """Roda a cada 8 horas (3x ao dia) para buscar 1 post novo."""
+    canal_id = config.get("reddit_channel")
+    if not canal_id: return
+    canal = bot.get_channel(canal_id)
+    if not canal: return
+
+    subreddit = "360hacks"
+    posts = await fetch_reddit_rss(subreddit)
+    
+    for post in posts:
+        post_id = post.id
+        if not is_processed(post_id, "reddit_processed.json"):
+            # Cria um Embed estilizado igual a referência
+            embed = discord.Embed(
+                title=post.title,
+                url=post.link,
+                color=0x107C10 # Verde clássico do Xbox
+            )
+            
+            autor = post.author if 'author' in post else "Usuário Desconhecido"
+            embed.set_author(
+                name=f"Novo post em r/{subreddit}", 
+                url=f"https://reddit.com/r/{subreddit}",
+                icon_url="https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-57x57.png"
+            )
+            
+            embed.add_field(name="Autor", value=autor, inline=True)
+            embed.set_footer(text="Plug & Play XNews • Monitoramento Ativo")
+            
+            await canal.send(embed=embed)
+            mark_as_processed(post_id, "reddit_processed.json")
+            
+            # Envia apenas 1 post não lido por ciclo de 8 horas
+            break 
+
+@monitorar_reddit.before_loop
+async def before_monitorar_reddit():
+    await bot.wait_until_ready()
+
+# ==========================================
 # EVENTOS DO BOT
 # ==========================================
 @bot.event
 async def on_message(message):
-    # Ignora mensagens do próprio bot ou de canais errados
     if message.author == bot.user or message.channel.id != config.get("source_channel"):
         return
 
-    # Lista de projetos monitorados (kyuubi corrigido)
     projetos_alvo = ["xbguard", "tethered", "proto", "kyuubi", "teapot"]
     projeto = next((p for p in projetos_alvo if p in message.content.lower()), None)
     
     if not projeto: return
 
-    # Verifica se a mensagem já foi processada
-    if os.path.exists("processed.json"):
-        with open("processed.json", "r", encoding="utf-8") as f:
-            try: data = json.load(f)
-            except: data = {"processed": []}
-        if message.id in data.get("processed", []): return
+    if is_processed(message.id): return
 
-    # Inicia processamento visual
     await message.add_reaction("⚙️")
     
     texto_resumido = await processar_changelog_ia(projeto, message.content)
@@ -101,25 +159,14 @@ async def on_message(message):
         role_id = config.get("roles", {}).get(projeto)
         mention = f"\n\n<@&{role_id}>" if role_id else ""
         
-# ... (resto do seu código on_message igual acima)
-
-    if texto_resumido:
-        dest_channel = bot.get_channel(config.get("dest_channel"))
-        role_id = config.get("roles", {}).get(projeto)
-        mention = f"\n\n<@&{role_id}>" if role_id else ""
-        
         if dest_channel:
-            # Monta a mensagem completa primeiro
             mensagem_completa = f"📢 **{projeto.upper()} - Novo Changelog**\n\n{texto_resumido}{mention}"
             
-            # SISTEMA DE SEGURANÇA: Se passar de 2000 caracteres, divide o envio
             if len(mensagem_completa) > 2000:
-                # Fatia em pedaços de 1900 caracteres para garantir uma margem de segurança
                 fatias = [mensagem_completa[i:i+1900] for i in range(0, len(mensagem_completa), 1900)]
                 for fatia in fatias:
                     await dest_channel.send(fatia)
             else:
-                # Envio normal caso seja menor que 2000 caracteres
                 await dest_channel.send(mensagem_completa)
                 
             await message.add_reaction("✅")
@@ -135,5 +182,8 @@ async def on_message(message):
 @bot.event
 async def on_ready():
     logging.info(f"Bot online e operante. Monitorando changelogs!")
+    if not monitorar_reddit.is_running():
+        monitorar_reddit.start()
+        logging.info("Task de monitoramento do Reddit iniciada (Loop de 8h).")
 
 bot.run(DISCORD_TOKEN)
