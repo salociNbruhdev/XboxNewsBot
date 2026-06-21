@@ -9,7 +9,7 @@ from google import genai
 
 # ==========================================
 # CONFIGURAÇÕES E INICIALIZAÇÃO
-# ==========================================
+# ====================  ======================
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - [%(levelname)s] - %(message)s')
 load_dotenv()
 
@@ -50,7 +50,8 @@ def mark_as_processed(message_id):
 
 async def processar_changelog_ia(projeto, texto):
     """Resumo via IA com tratamento automático de limite de taxa."""
-    prompt = f"Traduza para português BR e crie um resumo organizado em tópicos curtos para o projeto {projeto.upper()}. Aqui está o conteúdo:\n\n{texto}"
+    # Adicionado comando de concisão no final do prompt
+    prompt = f"Traduza para português BR e crie um resumo organizado em tópicos curtos para o projeto {projeto.upper()}. Seja conciso e limite o resumo a no máximo 1500 caracteres. Aqui está o conteúdo:\n\n{texto}"
     
     for tentativa in range(3):
         try:
@@ -100,8 +101,27 @@ async def on_message(message):
         role_id = config.get("roles", {}).get(projeto)
         mention = f"\n\n<@&{role_id}>" if role_id else ""
         
+# ... (resto do seu código on_message igual acima)
+
+    if texto_resumido:
+        dest_channel = bot.get_channel(config.get("dest_channel"))
+        role_id = config.get("roles", {}).get(projeto)
+        mention = f"\n\n<@&{role_id}>" if role_id else ""
+        
         if dest_channel:
-            await dest_channel.send(f"📢 **{projeto.upper()} - Novo Changelog**\n\n{texto_resumido}{mention}")
+            # Monta a mensagem completa primeiro
+            mensagem_completa = f"📢 **{projeto.upper()} - Novo Changelog**\n\n{texto_resumido}{mention}"
+            
+            # SISTEMA DE SEGURANÇA: Se passar de 2000 caracteres, divide o envio
+            if len(mensagem_completa) > 2000:
+                # Fatia em pedaços de 1900 caracteres para garantir uma margem de segurança
+                fatias = [mensagem_completa[i:i+1900] for i in range(0, len(mensagem_completa), 1900)]
+                for fatia in fatias:
+                    await dest_channel.send(fatia)
+            else:
+                # Envio normal caso seja menor que 2000 caracteres
+                await dest_channel.send(mensagem_completa)
+                
             await message.add_reaction("✅")
             mark_as_processed(message.id)
         else:
