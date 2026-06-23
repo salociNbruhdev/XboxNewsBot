@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Qual era o nome de código oficial do projeto de desenvolvimento do hardware do Xbox 360?",
+    "opcoes": [
+      "A) Xenon",
+      "B) Durango",
+      "C) Trinity",
+      "D) Natal"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Xenon foi o nome de código do projeto inicial, e acabou por ser também o nome dado à primeira revisão da placa-mãe do console."
+  },
+  {
+    "id": 2,
+    "pergunta": "Qual empresa foi a responsável pelo design e fabricação do processador (CPU) do Xbox 360?",
+    "opcoes": [
+      "A) Intel",
+      "B) AMD",
+      "C) IBM",
+      "D) NVIDIA"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "A CPU baseava-se na arquitetura PowerPC da IBM e contava com 3 núcleos simétricos a correr a 3.2 GHz."
+  },
+  {
+    "id": 3,
+    "pergunta": "Qual era o nome do chip gráfico (GPU) desenvolvido pela ATI para o Xbox 360?",
+    "opcoes": [
+      "A) Xenos",
+      "B) Reality Synthesizer",
+      "C) Hollywood",
+      "D) Vega"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O chip Xenos da ATI foi pioneiro ao introduzir a arquitetura de Shaders Unificados no mercado dos videojogos."
+  },
+  {
+    "id": 4,
+    "pergunta": "Quanta memória RAM total partilhada (GDDR3) possuía o modelo de lançamento do Xbox 360?",
+    "opcoes": [
+      "A) 256 MB",
+      "B) 512 MB",
+      "C) 1 GB",
+      "D) 2 GB"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O console utilizava uma arquitetura de memória unificada (UMA), onde os 512 MB eram divididos dinamicamente entre a CPU e a GPU."
+  },
+  {
+    "id": 5,
+    "pergunta": "O chip gráfico do Xbox 360 contava com uma memória ultra-rápida filha integrada (eDRAM). Qual era a sua capacidade?",
+    "opcoes": [
+      "A) 4 MB",
+      "B) 10 MB",
+      "C) 32 MB",
+      "D) 64 MB"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Estes 10 MB de eDRAM eram responsáveis por processar o Anti-Aliasing e os efeitos de pós-processamento com largura de banda massiva."
+  },
+  {
+    "id": 6,
+    "pergunta": "Qual foi a principal causa física por trás do famoso erro térmico das 3 Luzes Vermelhas (RROD)?",
+    "opcoes": [
+      "A) Quebra nas soldas sem chumbo da GPU",
+      "B) Curto-circuito no leitor de DVD",
+      "C) Falha total da fonte de alimentação externa",
+      "D) Sobrecarga nos condensadores da CPU"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Devido ao calor extremo e ao uso de soldas ecológicas (sem chumbo), as esferas de solda por baixo da GPU rachavam, quebrando o contacto elétrico."
+  },
+  {
+    "id": 7,
+    "pergunta": "A primeira versão do Xbox 360 (2005) não trazia uma conexão digital de vídeo muito comum hoje em dia. Qual era?",
+    "opcoes": [
+      "A) Saída Óptica",
+      "B) Porta HDMI",
+      "C) Saída Componente",
+      "D) Saída VGA"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O modelo original dependia de cabos analógicos (Componente/VGA). A porta HDMI só foi integrada no hardware a partir do modelo 'Elite'."
+  },
+  {
+    "id": 8,
+    "pergunta": "Qual era o tamanho do processo de fabricação (litografia) dos chips de CPU e GPU no lançamento em 2005?",
+    "opcoes": [
+      "A) 90 nanómetros (nm)",
+      "B) 65 nanómetros (nm)",
+      "C) 45 nanómetros (nm)",
+      "D) 28 nanómetros (nm)"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "A litografia inicial de 90nm gerava muito calor. Com o tempo, a Microsoft reduziu o tamanho dos chips para melhorar a eficiência energética."
+  },
+  {
+    "id": 9,
+    "pergunta": "Qual placa-mãe do Xbox 360 ficou famosa por finalmente mitigar o problema do RROD ao introduzir chips de 65nm e dissipadores revistos?",
+    "opcoes": [
+      "A) Zephyr",
+      "B) Falcon",
+      "C) Jasper",
+      "D) Opus"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "A revisão 'Jasper' (lançada no final de 2008) é considerada a mais fiável e resistente de todos os modelos originais ('Fat')."
+  },
+  {
+    "id": 10,
+    "pergunta": "Que tipo de leitor de média física foi embutido no hardware do Xbox 360?",
+    "opcoes": [
+      "A) Leitor Blu-ray",
+      "B) Leitor HD-DVD",
+      "C) Leitor DVD-ROM Dual Layer",
+      "D) Leitor de Cartuchos"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "O leitor nativo era DVD. Para competir com o Blu-ray da PS3, a Microsoft vendeu um leitor externo de HD-DVD como acessório separado."
+  },
+  {
+    "id": 11,
+    "pergunta": "Como se chamava a arquitetura interna do modelo 'Xbox 360 S' (Slim) que unificou a CPU e a GPU num único chip?",
+    "opcoes": [
+      "A) Trinity",
+      "B) Corona",
+      "C) Winchester",
+      "D) Stingray"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "A placa Trinity trouxe o chip CGPU, que combinava o processador e o chip gráfico na mesma peça de silício, reduzindo o consumo."
+  },
+  {
+    "id": 12,
+    "pergunta": "Qual era a capacidade de armazenamento do menor disco rígido (HDD) oficial vendido para o Xbox 360 Fat?",
+    "opcoes": [
+      "A) 4 GB",
+      "B) 20 GB",
+      "C) 60 GB",
+      "D) 120 GB"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O modelo 'Pro' ou 'Premium' vinha de fábrica com um disco cinzento destacável de 20 GB acoplado ao topo do console."
+  },
+  {
+    "id": 13,
+    "pergunta": "O Xbox 360 utilizava cartões de memória proprietários nos primeiros anos. Qual era a capacidade máxima oficial comercializada deles?",
+    "opcoes": [
+      "A) 64 MB",
+      "B) 512 MB",
+      "C) 1 GB",
+      "D) 4 GB"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Os cartões de memória eram usados principalmente para transferir perfis e saves antes de a Microsoft libertar o suporte para pendrives USB."
+  },
+  {
+    "id": 14,
+    "pergunta": "Quantas portas USB nativas possuía o design original do Xbox 360 Fat?",
+    "opcoes": [
+      "A) 2 portas",
+      "B) 3 portas",
+      "C) 4 portas",
+      "D) 5 portas"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O modelo Fat tinha duas portas USB escondidas na parte frontal por uma aba e uma porta na parte traseira (usada muito para o adaptador Wi-Fi)."
+  },
+  {
+    "id": 15,
+    "pergunta": "Qual o protocolo de comunicação sem fios utilizado nativamente pelos comandos oficiais do Xbox 360?",
+    "opcoes": [
+      "A) Bluetooth 2.1",
+      "B) Infravermelho",
+      "C) Radiofrequência proprietária de 2.4 GHz",
+      "D) Wi-Fi Direct"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "O console usava um protocolo de rádio fechado de baixa latência, o que impedia a ligação direta a telemóveis ou computadores sem um adaptador próprio."
+  },
+  {
+    "id": 16,
+    "pergunta": "No modelo de lançamento do Xbox 360 Core (o mais barato), que componente crucial de hardware não vinha incluído na caixa?",
+    "opcoes": [
+      "A) Comando sem fios",
+      "B) Cabo AV",
+      "C) Disco Rígido (HDD)",
+      "D) Fonte de alimentação"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "O modelo 'Core' vinha com um comando com fios e não incluía disco rígido nem cartão de memória, obrigando à compra separada para salvar jogos."
+  },
+  {
+    "id": 17,
+    "pergunta": "Qual era a potência máxima nominal (em Watts) consumida pela primeira fonte de alimentação do Xbox 360 em 2005?",
+    "opcoes": [
+      "A) 135W",
+      "B) 150W",
+      "C) 175W",
+      "D) 203W"
+    ],
+    "resposta_correta": "D",
+    "curiosidade": "A primeira fonte de alimentação era enorme e pesada, debitando até 203 Watts devido ao alto consumo dos chips originais de 90nm."
+  },
+  {
+    "id": 18,
+    "pergunta": "Qual sensor de movimento foi lançado em 2010 e possuía uma câmera RGB, sensor de profundidade e motor integrados?",
+    "opcoes": [
+      "A) Xbox Eye",
+      "B) Kinect",
+      "C) Move",
+      "D) Wiimote"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O Kinect (Project Natal) processava todo o rastreio do corpo humano diretamente através de hardware e algoritmos de mapeamento 3D."
+  },
+  {
+    "id": 19,
+    "pergunta": "Como se chama a última revisão da placa-mãe do Xbox 360 Slim/E que removeu totalmente o chip de eDRAM separado?",
+    "opcoes": [
+      "A) Corona",
+      "B) Winchester",
+      "C) Trinity",
+      "D) Jasper"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A placa 'Winchester' foi lançada em 2014. Ela integrou tudo num design tão fechado que inviabilizou modificações de hardware conhecidas como RGH."
+  },
+  {
+    "id": 20,
+    "pergunta": "Para que servia a porta AUX localizada na parte traseira dos modelos Xbox 360 Slim e E?",
+    "opcoes": [
+      "A) Ligar fones de ouvido profissionais",
+      "B) Alimentar e conectar o sensor Kinect",
+      "C) Ligar um segundo disco rígido externo",
+      "D) Ligar antenas de rádio adicionais"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A porta AUX fornecia energia dedicada e transmissão de dados suficiente para o Kinect funcionar sem precisar de uma fonte de tomada externa."
+  },
+  {
+    "id": 21,
+    "pergunta": "Qual componente do comando do Xbox 360 sofria desgaste frequente e usava molas metálicas no seu compartimento traseiro?",
+    "opcoes": [
+      "A) O analógico esquerdo",
+      "B) Os gatilhos LT/RT",
+      "C) O suporte amovível de pilhas AA",
+      "D) O botão do painel guia"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "O design com um cartucho de pilhas AA saliente atrás do comando era uma assinatura de hardware do periférico."
+  },
+  {
+    "id": 22,
+    "pergunta": "Que sistema de ficheiros era utilizado nativamente para formatar e ler os discos rígidos oficiais internos do Xbox 360?",
+    "opcoes": [
+      "A) NTFS",
+      "B) FAT32",
+      "C) FATX",
+      "D) exFAT"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "O FATX é uma variação proprietária do sistema FAT criada pela Microsoft especificamente para a segurança de partições nos consoles Xbox."
+  },
+  {
+    "id": 23,
+    "pergunta": "Quantos ventiladores (ventoinhas) internos de exaustão possuía a carcaça do modelo original Xbox 360 Fat?",
+    "opcoes": [
+      "A) 1 ventilador grande",
+      "B) 2 ventiladores gémeos pequenos",
+      "C) 3 ventiladores",
+      "D) Nenhum (dissipação passiva)"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O modelo Fat tinha duas ventoinhas de 60mm na parte traseira que puxavam o ar quente acumulado nos blocos dissipadores de alumínio e cobre."
+  },
+  {
+    "id": 24,
+    "pergunta": "Qual foi a maior capacidade de armazenamento oficial disponibilizada num disco rígido (HDD) interno para o Xbox 360 Slim?",
+    "opcoes": [
+      "A) 250 GB",
+      "B) 320 GB",
+      "C) 500 GB",
+      "D) 1 TB"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "O modelo de 500 GB foi lançado perto do fim da vida útil do console, ideal para acomodar downloads de jogos digitais pesados."
+  },
+  {
+    "id": 25,
+    "pergunta": "Qual o nome da saída de áudio utilizada para ligar o Xbox 360 diretamente a Home Theaters através de cabos de fibra óptica?",
+    "opcoes": [
+      "A) TOSLINK (S/PDIF)",
+      "B) Coaxial RCA",
+      "C) P2 Jack",
+      "D) DisplayPort Audio"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "A saída óptica TOSLINK permitia extrair áudio digital multicanal Dolby Digital 5.1 puro do console."
+  },
+  {
+    "id": 26,
+    "pergunta": "Em termos de hardware de rede, o que os modelos Fat necessitavam para se ligar à internet via Wi-Fi?",
+    "opcoes": [
+      "A) Uma atualização de firmware por USB",
+      "B) Um adaptador de rede externo ligado via USB",
+      "C) Um cabo crossover ligado ao PC",
+      "D) O console Fat vinha com Wi-Fi interno de fábrica"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "As primeiras versões do Xbox 360 só tinham entrada Ethernet RJ45. O Wi-Fi só passou a ser embutido diretamente na placa-mãe a partir do modelo Slim."
+  },
+  {
+    "id": 27,
+    "pergunta": "A GPU do Xbox 360 continha quantos processadores de vetor de shader (ALUs) unificados?",
+    "opcoes": [
+      "A) 16",
+      "B) 24",
+      "C) 48",
+      "D) 64"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "A arquitetura contava com 48 pipelines de shader unificados capazes de gerir dinamicamente tanto vértices quanto píxeis."
+  },
+  {
+    "id": 28,
+    "pergunta": "O comando do Xbox 360 possui dois motores internos que fornecem feedback físico ao jogador. O que fazem esses motores?",
+    "opcoes": [
+      "A) Motores de passo para precisão",
+      "B) Motores de vibração por contrapeso assimétrico (Rumble)",
+      "C) Sensores giroscópicos",
+      "D) Sistemas de refrigeração para as mãos"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Um dos motores é maior e gira mais devagar (vibrações pesadas), enquanto o outro é menor e gira rápido (vibrações subtis e agudas)."
+  },
+  {
+    "id": 29,
+    "pergunta": "Qual era a velocidade de rotação máxima padrão do leitor de discos DVD do Xbox 360?",
+    "opcoes": [
+      "A) 4x",
+      "B) 8x",
+      "C) 12x",
+      "D) 16x"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "A velocidade de 12x gerava bastante ruído aéreo dentro do console, o que levou a Microsoft a permitir a instalação completa dos jogos no HD."
+  },
+  {
+    "id": 30,
+    "pergunta": "Qual o componente físico do painel frontal que mudava de padrão geométrico para indicar códigos de erro específicos ou quantos comandos estavam ligados?",
+    "opcoes": [
+      "A) O visor de cristal líquido",
+      "B) O Anel de Luz (Ring of Light) feito de LEDs",
+      "C) A bandeja do leitor de DVD",
+      "D) O sensor infravermelho"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O botão Power era cercado por 4 quadrantes de LEDs verdes/vermelhos que piscavam em padrões diferentes para reportar diagnósticos do sistema."
+  },
+  {
+    "id": 31,
+    "pergunta": "Qual foi o primeiro método de desbloqueio do Xbox 360, que consistia em modificar o firmware do leitor de DVD?",
+    "opcoes": [
+      "A) JTAG",
+      "B) RGH",
+      "C) iXtreme",
+      "D) 3K3Y"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "O iXtreme (e o anterior Xtreme) alterava o firmware do leitor para fazer discos clonados (backups) passarem como originais."
+  },
+  {
+    "id": 32,
+    "pergunta": "O hack JTAG (SMC Exploit) aproveitava uma falha de hardware descoberta em qual componente/funcionalidade do console?",
+    "opcoes": [
+      "A) Porta HDMI",
+      "B) Transistores de teste JTAG da placa-mãe",
+      "C) Sensor Kinect",
+      "D) Portas USB frontais"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O JTAG tirava partido das portas de teste de fábrica da placa para injetar código não assinado antes do arranque do sistema."
+  },
+  {
+    "id": 33,
+    "pergunta": "Em 2011, surgiu o RGH, um método de desbloqueio que revolucionou a cena. O que significa a sigla RGH?",
+    "opcoes": [
+      "A) Random Glitch Hack",
+      "B) Reset Glitch Hack",
+      "C) Reboot Gateway Hardware",
+      "D) Recover General Hypervisor"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O RGH enviava pulsos elétricos minúsculos ao processador para fazê-lo falhar temporariamente e aceitar software modificado."
+  },
+  {
+    "id": 34,
+    "pergunta": "Qual versão máxima da Dashboard (Kernel) permitia que um Xbox 360 Fat recebesse o desbloqueio original por JTAG?",
+    "opcoes": [
+      "A) 2.0.7371",
+      "B) 2.0.14699",
+      "C) 2.0.16537",
+      "D) 2.0.17559"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "A atualização 7371, lançada em 2009, corrigiu a falha do SMC, tornando consoles JTAG raros e valiosos no mercado."
+  },
+  {
+    "id": 35,
+    "pergunta": "Como se chama o chip semicondutor crucial que armazena o sistema operativo (Dashboard) e o Kernel do Xbox 360?",
+    "opcoes": [
+      "A) eDRAM",
+      "B) NAND Flash",
+      "C) Southbridge",
+      "D) EEPROM"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Os hackers utilizavam leitores SPI baseados em PIC ou Raspberry Pi para extrair e reescrever a imagem da memória NAND."
+  },
+  {
+    "id": 36,
+    "pergunta": "Qual é a Dashboard alternativa (Homebrew) mais famosa do Xbox 360, conhecida pela sua interface personalizável e gestão de capas?",
+    "opcoes": [
+      "A) Aurora",
+      "B) XeXMenu",
+      "C) Freestyle Dash (FSD)",
+      "D) Evox"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "A Freestyle Dash dominou a cena homebrew por anos antes do desenvolvimento da sua sucessora espiritual, a Aurora."
+  },
+  {
+    "id": 37,
+    "pergunta": "Especialmente projetada para substituir a FSD, qual é a Dashboard homebrew atualizada e mais leve usada hoje em consoles RGH?",
+    "opcoes": [
+      "A) DashLaunch",
+      "B) Aurora",
+      "C) Horizon",
+      "D) XM360"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A Aurora é moderna, rápida, possui suporte integrado a scripts e descarrega capas de jogos automaticamente pela internet."
+  },
+  {
+    "id": 38,
+    "pergunta": "Para que serve a ferramenta de sistema 'DashLaunch' num console com JTAG ou RGH?",
+    "opcoes": [
+      "A) Formatar o HD em NTFS",
+      "B) Configurar plugins, gerir restrições da Xbox Live e definir o boot inicial",
+      "C) Gravar mídias DVD Dual Layer",
+      "D) Aumentar a velocidade do leitor"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O DashLaunch atua em baixo nível, permitindo que o console carregue dashboards alternativas assim que é ligado."
+  },
+  {
+    "id": 39,
+    "pergunta": "Qual era o principal objetivo dos emuladores de drive de DVD (ODDE), como o x360key (XK3Y) ou Wasabi?",
+    "opcoes": [
+      "A) Rodar emuladores de Super Nintendo",
+      "B) Simular o leitor de DVD físico para carregar ISOs de jogos a partir de um HD externo USB",
+      "C) Permitir o uso do comando da PS3",
+      "D) Desbloquear conquistas falsas"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Os ODDE interpunham-se entre a placa-mãe e o leitor, enganando o console para que pensasse que um disco original estava inserido."
+  },
+  {
+    "id": 40,
+    "pergunta": "O utilitário homebrew 'XeXMenu' serve primariamente para qual função?",
+    "opcoes": [
+      "A) Editar fotos",
+      "B) Navegar pelos ficheiros do sistema (File Manager) e executar arquivos .xex",
+      "C) Assistir a canais de TV pirata",
+      "D) Calibrar as câmeras do Kinect"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O XeXMenu era frequentemente o primeiro programa instalado após um mod, servindo de porta de entrada para transferir outras homebrews."
+  },
+  {
+    "id": 41,
+    "pergunta": "Qual é a extensão padrão de arquivos executáveis binários nativos no ecossistema do Xbox 360?",
+    "opcoes": [
+      "A) .exe",
+      "B) .elf",
+      "C) .xex",
+      "D) .dol"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "Assim como o Windows usa .exe e a PS3 usa .elf, o Xbox 360 usa o formato estruturado .xex para as suas aplicações e jogos."
+  },
+  {
+    "id": 42,
+    "pergunta": "O que são as 'Title Updates' (TU) no contexto do Xbox 360 modificado?",
+    "opcoes": [
+      "A) Atualizações oficiais de correção enviadas para os jogos",
+      "B) Trocas de nome de perfil na Live",
+      "C) Modificações visuais no menu do console",
+      "D) Códigos de batota (cheats) incorporados"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Consoles bloqueados sacam as TUs da Live, mas donos de RGH usam a Aurora ou pendrives para gerir e aplicar as TUs offline."
+  },
+  {
+    "id": 43,
+    "pergunta": "Qual famosa chave de criptografia por console os hackers precisavam extrair para descriptografar os ficheiros da NAND e gerar uma Dash modificada?",
+    "opcoes": [
+      "A) DVD Key",
+      "B) CPU Key",
+      "C) Live Key",
+      "D) Master Key"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A CPU Key é única para cada processador e é fundida nos eFuses do chip durante o fabrico, sendo impossível de adivinhar sem um exploit."
+  },
+  {
+    "id": 44,
+    "pergunta": "O programa de PC chamado 'J-Runner' (ou J-Runner with Extras) é utilizado pelos modificadores para:",
+    "opcoes": [
+      "A) Editar saves de jogos",
+      "B) Criar capas customizadas",
+      "C) Ler, comparar, criar e escrever imagens de NAND modificadas (Xell/XeBuild)",
+      "D) Emular o Xbox 360 no computador"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "O J-Runner é a ferramenta definitiva do PC para gerir o processo completo de modificação de hardware JTAG/RGH."
+  },
+  {
+    "id": 45,
+    "pergunta": "O que é o 'XeLL' (Xbox Embedded Linux Loader) que surge no ecrã quando ligas um console RGH usando o botão Eject?",
+    "opcoes": [
+      "A) Um reprodutor de música embutido",
+      "B) Um mini-sistema operativo em modo texto usado para exibir chaves de hardware (como a CPU Key) e recuperar o console",
+      "C) Um jogo escondido da Microsoft",
+      "D) O menu de definições de fábrica do leitor"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O XeLL corre num nível de privilégio tão básico que contorna todo o sistema de segurança principal da Microsoft."
+  },
+  {
+    "id": 46,
+    "pergunta": "O erro crónico de software 'E74' podia ser engenhado ou simulado em consoles modificados devido a:",
+    "opcoes": [
+      "A) Erro na escrita do ficheiro KV (Keyvault) ou falha na comunicação com o chip de escala de vídeo (ANA/HANA)",
+      "B) Falha de espaço na memória do HD",
+      "C) Conexão incorreta de comandos USB",
+      "D) Uso de pilhas gastas no controle"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Embora o E74 fosse maioritariamente uma falha de solda no chip HANA, dados corrompidos no Keyvault da NAND também causavam este erro."
+  },
+  {
+    "id": 47,
+    "pergunta": "Como se chama o formato de empacotamento oficial de ficheiros da Microsoft usado para DLCs, Jogos Arcade (XBLA) e Perfis na memória do console?",
+    "opcoes": [
+      "A) ISO",
+      "B) GOD (Games on Demand)",
+      "C) LIVE / CON",
+      "D) RAR"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "Os ficheiros na partição de conteúdo seguem a assinatura interna CON (conteúdo assinado localmente) ou LIVE (conteúdo assinado digitalmente da loja)."
+  },
+  {
+    "id": 48,
+    "pergunta": "Para rodar jogos baixados diretamente no HD externo sem passar pelo leitor, os utilizadores de RGH convertem ISOs normais para qual formato estruturado específico?",
+    "opcoes": [
+      "A) GOD (Games on Demand) ou Ficheiros Extraídos (XEX)",
+      "B) MP4 Video",
+      "C) ZIP compactado",
+      "D) BIN/CUE"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O formato GOD transforma o jogo numa réplica da estrutura digital oficial vendida pela Microsoft na Xbox Live Store."
+  },
+  {
+    "id": 49,
+    "pergunta": "Quais eram os modelos de drives de DVD mais difíceis de desbloquear no final da vida do Xbox 360 Slim, exigindo furação física no chip (Método Kamikaze)?",
+    "opcoes": [
+      "A) Samsung MS25",
+      "B) BenQ VAD6038",
+      "C) Lite-On DG-16D4S (com chip Winbond)",
+      "D) Hitachi-LG v46"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "O método Kamikaze envolvia usar uma mini-broca ou ferro de soldar para cortar uma trilha microscópica interna protetora dentro do chip Winbond."
+  },
+  {
+    "id": 50,
+    "pergunta": "Como ficou conhecida a massiva onda promovida pela Microsoft que baniu de uma só vez milhares de consoles modificados da Xbox Live em novembro de 2009?",
+    "opcoes": [
+      "A) The Red Ring Event",
+      "B) The Ban Wave",
+      "C) Operation Clean Sweep",
+      "D) JTAG Doomsday"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Durante a Ban Wave de 2009, qualquer console detetado com firmware modificado iXtreme tinha o acesso à Live cortado permanentemente."
+  },
+  {
+    "id": 51,
+    "pergunta": "No ecossistema de hacks do 360, o que significa o termo 'Stealth Server'?",
+    "opcoes": [
+      "A) Servidores para downloads mais rápidos de capas",
+      "B) Serviços pagos ou gratuitos que camuflam consoles RGH/JTAG para que se possam ligar à Xbox Live oficial sem serem banidos imediatamente",
+      "C) Um emulador escondido de jogos PS2",
+      "D) Servidores privados para jogar Gears of War em rede local"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Os Stealth Servers intercetam as rotinas de verificação de segurança do kernel da Microsoft, respondendo com dados modificados 'limpos'."
+  },
+  {
+    "id": 52,
+    "pergunta": "Qual ferramenta de PC era famosa por permitir a edição e modificação visual de Saves de jogos, perfis e conquistas (GamerScore) através de pen drives?",
+    "opcoes": [
+      "A) Horizon",
+      "B) WinRAR",
+      "C) ImgBurn",
+      "D) Rufus"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O Horizon permitia colocar dinheiro infinito e munição em saves de jogos de consoles totalmente originais usando apenas um pen drive."
+  },
+  {
+    "id": 53,
+    "pergunta": "O chip de hardware modificado chamado 'Team Xecuter CoolRunner' servia para qual propósito?",
+    "opcoes": [
+      "A) Substituir os ventiladores barulhentos",
+      "B) Atuar como o chip de pulso físico necessário para realizar o Reset Glitch Hack (RGH)",
+      "C) Adicionar mais memória RAM ao console",
+      "D) Permitir a leitura de discos Blu-ray"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A Team Xecuter foi o grupo de hardware hacker mais proeminente e influente durante toda a vida útil do Xbox 360."
+  },
+  {
+    "id": 54,
+    "pergunta": "Qual programa de homebrew permite o desbloqueio manual de conquistas e avatares diretamente na interface do Xbox 360 modificado?",
+    "opcoes": [
+      "A) XM360",
+      "B) DashLaunch",
+      "C) FSD Cheat Manager",
+      "D) XEXUnclocker"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O XM360 também é amplamente utilizado para verificar se os DLCs instalados na memória estão desbloqueados e ativos."
+  },
+  {
+    "id": 55,
+    "pergunta": "O que o software 'Abgx360' fazia para ajudar os utilizadores que utilizavam o desbloqueio por modificação de leitor de DVD?",
+    "opcoes": [
+      "A) Convertia os jogos para formato de vídeo",
+      "B) Verificava e corrigia patches de segurança (arquivos Stealth) nas ISOs de jogos antes de serem gravadas",
+      "C) Emulava o sistema no PC",
+      "D) Extraía as músicas dos jogos"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Passar a ISO no Abgx360 garantia que a cópia tinha os mesmos setores de segurança digitais que o disco de varejo original."
+  },
+  {
+    "id": 56,
+    "pergunta": "Qual era a principal desvantagem física do método de desbloqueio 'RGH 1.0' em placas-mãe Jasper com cablagens mal feitas?",
+    "opcoes": [
+      "A) Perda de cor nos gráficos",
+      "B) Tempos de boot (ligar) inconsistentes e demorados",
+      "C) Queima imediata do leitor de discos",
+      "D) Desconexão aleatória do Wi-Fi"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Como dependia de uma falha forçada por pulso elétrico, o console podia demorar segundos ou até minutos para arrancar o sistema."
+  },
+  {
+    "id": 57,
+    "pergunta": "O avanço conhecido como 'RGH 3.0' trouxe uma inovação massiva para o processo de modificação porque:",
+    "opcoes": [
+      "A) Passou a permitir jogar jogos de PlayStation 3",
+      "B) Eliminou a necessidade de usar um chip físico de glitch, usando apenas fios e resistores para fazer o mod por software/hardware direto",
+      "C) Tornou o console à prova de quedas físicas",
+      "D) Duplicou o poder de processamento gráfico"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O RGH 3.0 utiliza frequências internas do próprio processador do Xbox 360 para gerar os ciclos de falha (glitch), reduzindo o custo e acelerando os boots."
+  },
+  {
+    "id": 58,
+    "pergunta": "Como se chama o ficheiro encriptado de 1KB contido na NAND que guarda dados de identificação críticos e únicos do console, como a região e o número de série?",
+    "opcoes": [
+      "A) SMC.bin",
+      "B) KV (Keyvault)",
+      "C) FCRT.bin",
+      "D) Bootloaders.bin"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Se o Keyvault (KV) for banido pela Microsoft, um console modificado pode voltar à Live se o técnico injetar um KV limpo não banido."
+  },
+  {
+    "id": 59,
+    "pergunta": "Qual o nome da aplicação homebrew baseada no emulador RetroArch que permite mapear e rodar múltiplos sistemas antigos no Xbox 360?",
+    "opcoes": [
+      "A) Retro360",
+      "B) FBA Next",
+      "C) MPlayer",
+      "D) RetroArch 360"
+    ],
+    "resposta_correta": "D",
+    "curiosidade": "Graças ao JTAG/RGH, o console ganhou portas oficiais de emuladores altamente otimizados de PS1, N64 e arcades."
+  },
+  {
+    "id": 60,
+    "pergunta": "Para gravar jogos no formato mais recente de mídia física chamado 'XGD3', que tipo de gravador de PC modificado com o firmware 'iXtreme Burner Max' era necessário?",
+    "opcoes": [
+      "A) Leitores comuns de notebook",
+      "B) Gravadores específicos da marca Lite-On (como o iHAS)",
+      "C) Leitores de Blu-ray externos",
+      "D) Unidades de disquete modificadas"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O formato XGD3 adicionava mais espaço útil ao DVD-DL, e só gravadores especiais conseguiam escrever dados nas bordas extremas da mídia (Overburning)."
+  },
+  {
+    "id": 61,
+    "pergunta": "O que acontece se ligares um console com RGH sem um servidor stealth ativo diretamente à rede oficial da Xbox Live?",
+    "opcoes": [
+      "A) O console explode fisicamente",
+      "B) O console é banido permanentemente da rede em poucos minutos",
+      "C) O console apaga todos os jogos instalados",
+      "D) Nada, a Microsoft não consegue detetar software não assinado"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Os servidores automáticos de telemetria da Microsoft detetam anomalias no kernel modificado instantaneamente se não houver mascaramento."
+  },
+  {
+    "id": 62,
+    "pergunta": "Qual o nome da proteção de hardware adicionada pela Microsoft nas revisões Slim de leitores de DVD que impedia a reescrita do firmware travando o chip em modo de leitura?",
+    "opcoes": [
+      "A) Write Protect (SPI Lock)",
+      "B) Region Lock",
+      "C) Media ID",
+      "D) AP25 Check"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O bloqueio de escrita de chips Winbond exigia o complexo método físico de perfuração (Kamikaze) para libertar o chip para escrita."
+  },
+  {
+    "id": 63,
+    "pergunta": "Qual o nome do software homebrew alternativo usado exclusivamente para ajustar a velocidade dos coolers de refrigeração interna e monitorizar as temperaturas de consoles RGH?",
+    "opcoes": [
+      "A) Aurora / DashLaunch (através do System Info e Plugins)",
+      "B) Horizon Tools",
+      "C) Iso2God",
+      "D) FATXExplorer"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Modificadores costumam alterar o perfil de rotação dos coolers no DashLaunch para manter as temperaturas do processador abaixo de 65°C."
+  },
+  {
+    "id": 64,
+    "pergunta": "A proteção de software 'AP 2.5' (Anti-Piracy 2.5), introduzida pela Microsoft nas Dashboards mais novas, realizava qual tipo de verificação?",
+    "opcoes": [
+      "A) Contava o número de conquistas do utilizador",
+      "B) Media o tempo de resposta e os ângulos físicos dos setores gravados no disco de leitura",
+      "C) Verificava o número de série do HD",
+      "D) Exigia conexão contínua com a internet"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O AP 2.5 desafiava o leitor de DVD a ler zonas de dados aleatórias no disco para provar que se tratava de uma mídia prensada original e não gravada."
+  },
+  {
+    "id": 65,
+    "pergunta": "Qual aplicação de PC serve para converter pastas de jogos extraídos (com arquivos .xex) diretamente de volta para pacotes fechados 'Games on Demand' (GOD)?",
+    "opcoes": [
+      "A) Iso2God",
+      "B) God2Iso",
+      "C) CreateXEX",
+      "D) ExISO"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Embora a inversão seja menos comum, reconstruir pacotes GOD ajuda a embutir os jogos diretamente no catálogo nativo da NXE original."
+  },
+  {
+    "id": 66,
+    "pergunta": "O termo 'eFuses' (fusíveis eletrónicos) refere-se a uma tecnologia integrada no processador do Xbox 360 usada pela Microsoft para evitar:",
+    "opcoes": [
+      "A) O roubo de energia elétrica",
+      "B) O downgrade (reversão) de atualizações do Kernel do sistema",
+      "C) A quebra física dos botões frontais",
+      "D) A clonagem de comandos sem fios"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Cada nova atualização da Dashboard queimava permanentemente uma linha de eFuses no processador, impedindo versões antigas do sistema de iniciarem."
+  },
+  {
+    "id": 67,
+    "pergunta": "Como se chama o cabo de extração e gravação de firmware que os modders usavam para interligar os leitores Lite-On do Xbox 360 à porta SATA do computador?",
+    "opcoes": [
+      "A) X360USB Pro",
+      "B) HDMI Pass",
+      "C) J-Link",
+      "D) Link Cable 360"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O X360USB Pro convertia os comandos do leitor proprietário para USB padrão, permitindo que PCs e notebooks modernos alterassem o firmware sem placas SATA compatíveis."
+  },
+  {
+    "id": 68,
+    "pergunta": "A rede alternativa homebrew chamada 'LiNK' integrada na Dashboard Aurora serve para:",
+    "opcoes": [
+      "A) Baixar jogos comerciais piratas de graça",
+      "B) Jogar jogos com suporte a rede local (System Link) em multijogador online com outros consoles modificados sem precisar da Xbox Live",
+      "C) Conversar por chamadas de vídeo",
+      "D) Atualizar os emuladores automaticamente"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A rede LiNK atua simulando uma LAN gigante em nível global, permitindo jogatinas online de Call of Duty e Halo entre consoles desbloqueados."
+  },
+  {
+    "id": 69,
+    "pergunta": "Qual software utilitário para Windows permite ler, gerir, e injetar arquivos diretamente em discos rígidos formatados no padrão de arquivos FATX do Xbox 360?",
+    "opcoes": [
+      "A) FATXplorer",
+      "B) WinZip",
+      "C) Partition Magic",
+      "D) TeraCopy"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O FATXplorer permite montar partições do console no Windows, tornando a cópia de centenas de gigabytes de jogos extremamente rápida via computador."
+  },
+  {
+    "id": 70,
+    "pergunta": "Qual o principal sintoma físico de um console modificado por RGH cuja imagem da NAND modificada foi criada com as configurações incorretas de LDV (Loop Counter)?",
+    "opcoes": [
+      "A) Os coolers giram em velocidade máxima imediata (Modo Turbina)",
+      "B) O console liga, mas exibe um ecrã preto eterno sem dar boot e sem luzes de erro",
+      "C) O leitor de DVD ejeta sozinho sem parar",
+      "D) Os comandos perdem a sincronia"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O valor de LDV deve bater exatamente com a quantidade de fusíveis virtuais eFuses queimados; se falhar, o processador recusa o arranque."
+  },
+  {
+    "id": 71,
+    "pergunta": "Qual foi o jogo exclusivo de lançamento do Xbox 360 em 2005 que apresentava combates na Primeira Pessoa contra criaturas mutantes e forças da SWAT?",
+    "opcoes": [
+      "A) Perfect Dark Zero",
+      "B) Condemned: Criminal Origins",
+      "C) Project Gotham Racing 3",
+      "D) Quake 4"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Condemned: Criminal Origins foi aclamado pela sua atmosfera de terror psicológico visceral e mecânicas de combate corpo a corpo."
+  },
+  {
+    "id": 72,
+    "pergunta": "Qual jogo da franquia Halo lançado para o Xbox 360 não é um jogo de tiro na primeira pessoa (FPS), mas sim um jogo de estratégia em tempo real (RTS)?",
+    "opcoes": [
+      "A) Halo: Reach",
+      "B) Halo 3: ODST",
+      "C) Halo Wars",
+      "D) Halo Spartan Assault"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "Halo Wars foi desenvolvido pela Ensemble Studios e provou que era possível adaptar controlos complexos de RTS para um comando de consola."
+  },
+  {
+    "id": 73,
+    "pergunta": "Em Gears of War, qual é o nome do esquadrão liderado por Marcus Fenix que combate a ameaça dos Locust?",
+    "opcoes": [
+      "A) Esquadrão Delta",
+      "B) Esquadrão Alfa",
+      "C) Esquadrão Kilo",
+      "D) Esquadrão Omega"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O Esquadrão Delta tornou-se um dos grupos de personagens mais icónicos da história do Xbox."
+  },
+  {
+    "id": 74,
+    "pergunta": "Qual RPG exclusivo do Xbox 360, desenvolvido pela Mistwalker e criado pelo pai de Final Fantasy (Hironobu Sakaguchi), vinha dividido em 4 discos de DVD?",
+    "opcoes": [
+      "A) Blue Dragon",
+      "B) Lost Odyssey",
+      "C) Infinite Undiscovery",
+      "D) Magna Carta II"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Lost Odyssey é considerado um clássico de culto pelos fãs de JRPGs devido à sua história madura e banda sonora de Nobuo Uematsu."
+  },
+  {
+    "id": 75,
+    "pergunta": "Qual jogo de corrida de mundo aberto do Xbox 360 foi pioneiro ao introduzir o conceito de 'M.O.O.R.' (Massively Open Online Racing) em 2006?",
+    "opcoes": [
+      "A) Forza Horizon",
+      "B) Test Drive Unlimited",
+      "C) Burnout Paradise",
+      "D) Need for Speed: Most Wanted"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Test Drive Unlimited recriou a ilha de Oahu à escala real e permitia cruzar com outros jogadores pelo mapa de forma orgânica."
+  },
+  {
+    "id": 76,
+    "pergunta": "Qual foi o último jogo da franquia Halo desenvolvido pela Bungie antes de passarem o bastão para a 343 Industries?",
+    "opcoes": [
+      "A) Halo 3",
+      "B) Halo 4",
+      "C) Halo: Reach",
+      "D) Halo: Combat Evolved Anniversary"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "Halo: Reach (2010) serve de prequela ao primeiro jogo e narra a trágica queda do planeta Reach."
+  },
+  {
+    "id": 77,
+    "pergunta": "Qual jogo do Xbox 360 focado em sobrevivência contra zombies permitia usar quase qualquer objeto como arma e prendia o jogador num centro comercial?",
+    "opcoes": [
+      "A) Left 4 Dead",
+      "B) Dead Rising",
+      "C) State of Decay",
+      "D) Dead Island"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O primeiro Dead Rising era famoso por conseguir exibir centenas de zombies no ecrã em simultâneo, algo inovador na altura."
+  },
+  {
+    "id": 78,
+    "pergunta": "Na série Fable do Xbox 360, como se chama o mundo fictício onde decorrem as aventuras?",
+    "opcoes": [
+      "A) Tamriel",
+      "B) Albion",
+      "C) Ferelden",
+      "D) Azeroth"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Albion muda de aspeto e tecnologia ao longo dos jogos da trilogia, evoluindo de uma era medieval para a revolução industrial."
+  },
+  {
+    "id": 79,
+    "pergunta": "Qual simulador de corridas do Xbox 360 introduziu a icónica funcionalidade 'Rewind' (retroceder o tempo após um erro) que depois se tornou padrão no género?",
+    "opcoes": [
+      "A) Forza Motorsport 3",
+      "B) Project Gotham Racing 4",
+      "C) Colin McRae: DiRT",
+      "D) Grid"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O sistema de rebobinar em Forza Motorsport 3 (2009) tornou o simulador mais acessível a jogadores casuais."
+  },
+  {
+    "id": 80,
+    "pergunta": "Qual jogo da autoria de Alan Wake e desenvolvido pela Remedy Entertainment foi originalmente lançado como um grande exclusivo do Xbox 360 em 2010?",
+    "opcoes": [
+      "A) Quantum Break",
+      "B) Control",
+      "C) Alan Wake",
+      "D) Max Payne 3"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "Alan Wake usava a luz de uma lanterna como mecânica principal para enfraquecer os inimigos antes de disparar."
+  },
+  {
+    "id": 81,
+    "pergunta": "Qual sub-série de tiro tático em terceira pessoa da Ubisoft teve dois jogos aclamados situados em casinos e hotéis do Xbox 360?",
+    "opcoes": [
+      "A) Tom Clancy's Ghost Recon Advanced Warfighter",
+      "B) Tom Clancy's Rainbow Six Vegas",
+      "C) Tom Clancy's Splinter Cell Conviction",
+      "D) The Division"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Rainbow Six Vegas introduziu um sistema de cobertura na terceira pessoa fantástico que marcou os jogos táticos da consola."
+  },
+  {
+    "id": 82,
+    "pergunta": "Qual jogo exclusivo da Rare para o Xbox 360 colocava o jogador a gerir e a defender um jardim habitado por criaturas feitas de doces?",
+    "opcoes": [
+      "A) Viva Piñata",
+      "B) Kameo: Elements of Power",
+      "C) Banjo-Kazooie: Nuts & Bolts",
+      "D) Conker: Live & Reloaded"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Apesar do visual infantil, Viva Piñata era um jogo de estratégia e ecossistema surpreendentemente profundo e complexo."
+  },
+  {
+    "id": 83,
+    "pergunta": "Qual o subtítulo do jogo da série Forza lançado em 2012 que transformou a franquia de simulação de pistas num festival de mundo aberto?",
+    "opcoes": [
+      "A) Horizon",
+      "B) Motorsport",
+      "C) Apex",
+      "D) Street"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O primeiro Forza Horizon decorria no estado do Colorado, EUA, e misturava a física apurada da série com música eletrónica e liberdade."
+  },
+  {
+    "id": 84,
+    "pergunta": "Que jogo do Xbox 360 causou grande controvérsia com a missão 'No Russian', onde o jogador presenciava um ataque num aeroporto?",
+    "opcoes": [
+      "A) Battlefield 3",
+      "B) Call of Duty: Modern Warfare 2",
+      "C) Medal of Honor",
+      "D) Spec Ops: The Line"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Modern Warfare 2 quebrou recordes de vendas e é considerado um dos maiores fenómenos culturais da geração 360."
+  },
+  {
+    "id": 85,
+    "pergunta": "Qual RPG de ficção científica da Bioware nasceu como um exclusivo Xbox 360 em 2007, permitindo criar o comandante Shepard?",
+    "opcoes": [
+      "A) Mass Effect",
+      "B) Dragon Age: Origins",
+      "C) Star Wars: KOTOR",
+      "D) Jade Empire"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Os dados de gravação (salvamentos) do primeiro Mass Effect podiam ser importados para as sequelas, moldando a história da trilogia."
+  },
+  {
+    "id": 86,
+    "pergunta": "Qual jogo exclusivo do Xbox Live Arcade (XBLA) marcou a geração com um estilo de plataforma sombrio, preto e branco, e um final enigmático com uma aranha gigante?",
+    "opcoes": [
+      "A) Fez",
+      "B) Braid",
+      "C) Limbo",
+      "D) Super Meat Boy"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "Limbo, da autoria da Playdead, impulsionou a era de ouro dos jogos independentes de grande sucesso no Xbox 360."
+  },
+  {
+    "id": 87,
+    "pergunta": "Qual jogo da Epic Games para o Xbox 360 popularizou mundialmente a mecânica de 'Active Reload' (recarga ativa com bónus de dano se acertada no tempo certo)?",
+    "opcoes": [
+      "A) Unreal Tournament 3",
+      "B) Gears of War",
+      "C) Bulletstorm",
+      "D) Shadow Complex"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Errar o Active Reload encravava a arma temporariamente, adicionando tensão aos tiroteios."
+  },
+  {
+    "id": 88,
+    "pergunta": "Qual foi o primeiro jogo da franquia Grand Theft Auto (GTA) a ser lançado nativamente para o Xbox 360 em 2008?",
+    "opcoes": [
+      "A) GTA San Andreas",
+      "B) GTA IV",
+      "C) GTA V",
+      "D) GTA: Episodes from Liberty City"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "GTA IV introduziu o motor de física Euphoria, que dava reações ultra-realistas aos corpos e acidentes em Liberty City."
+  },
+  {
+    "id": 89,
+    "pergunta": "Qual jogo exclusivo de lançamento do Xbox 360 trazia uma fada metamorfa chamada Kameo que se transformava em várias criaturas elementais?",
+    "opcoes": [
+      "A) Kameo: Elements of Power",
+      "B) Perfect Dark Zero",
+      "C) Blue Dragon",
+      "D) Fable II"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Kameo foi originalmente planeado para a GameCube e depois para a Xbox original, antes de ser finalizado para o 360."
+  },
+  {
+    "id": 90,
+    "pergunta": "Como se chama a arma icónica da série Gears of War que consiste num fuzil de assalto equipado com uma motosserra funcional acoplada?",
+    "opcoes": [
+      "A) Gnasher",
+      "B) Lancer",
+      "C) Hammer of Dawn",
+      "D) Retro Lancer"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A Lancer é o símbolo máximo de Gears of War e uma das armas mais famosas de sempre da indústria."
+  },
+  {
+    "id": 91,
+    "pergunta": "Qual jogo de terror cooperativo para 4 jogadores colocava os sobreviventes a correr contra hordas de zombies velozes e infetados especiais como o Tank e a Witch?",
+    "opcoes": [
+      "A) Left 4 Dead",
+      "B) Dead Island",
+      "C) Resident Evil 5",
+      "D) Killing Floor"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Left 4 Dead usava uma IA chamada 'The Director', que mudava a posição dos itens e inimigos com base no desempenho dos jogadores."
+  },
+  {
+    "id": 92,
+    "pergunta": "Qual jogo exclusivo do Xbox Live Arcade (XBLA) desafiava o jogador a controlar o tempo (retroceder, criar clones temporais) para resolver puzzles e salvar uma princesa?",
+    "opcoes": [
+      "A) Limbo",
+      "B) Braid",
+      "C) Fez",
+      "D) Bastion"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Criado por Jonathan Blow, Braid é considerado um marco filosófico e mecânico para o desenvolvimento de jogos Indie."
+  },
+  {
+    "id": 93,
+    "pergunta": "Em Halo 3, qual o nome do líder dos Elites (Sangheili) que se alia ao Master Chief para travar os Prophet e os Brutes?",
+    "opcoes": [
+      "A) Tartarus",
+      "B) The Arbiter (Árbitro)",
+      "C) Cortéz",
+      "D) Atriox"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O Arbiter (Thel 'Vadam) foi um personagem jogável em Halo 2 e um aliado fundamental na campanha cooperativa de Halo 3."
+  },
+  {
+    "id": 94,
+    "pergunta": "Qual jogo apocalíptico da THQ colocava o jogador na pele de Guerra (War), um dos Cavaleiros do Apocalipse, misturando mecânicas de hack 'n slash e Zelda?",
+    "opcoes": [
+      "A) Darksiders",
+      "B) Dante's Inferno",
+      "C) Bayonetta",
+      "D) Devil May Cry 4"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Darksiders conquistou os jogadores no Xbox 360 pela sua arte estilizada assinada pelo desenhador de BD Joe Madureira."
+  },
+  {
+    "id": 95,
+    "pergunta": "Qual jogo de sobrevivência tática e psicológica decorre no Dubai após este ter sido devastado por tempestades de areia catastróficas?",
+    "opcoes": [
+      "A) Battlefield: Bad Company",
+      "B) Spec Ops: The Line",
+      "C) Homefront",
+      "D) Ghost Recon: Future Soldier"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Spec Ops: The Line é aclamado pela sua narrativa impactante inspirada no livro 'Coração das Trevas', abordando os horrores reais da guerra."
+  },
+  {
+    "id": 96,
+    "pergunta": "Qual estúdio britânico comprou os direitos da série Project Gotham Racing, produzindo o memorável PGR4 para o Xbox 360?",
+    "opcoes": [
+      "A) Codemasters",
+      "B) Bizarre Creations",
+      "C) Criterion Games",
+      "D) Evolution Studios"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "PGR4 introduziu motas nas corridas e um sistema de meteorologia dinâmica avançado para a época."
+  },
+  {
+    "id": 97,
+    "pergunta": "Qual jogo exclusivo do Xbox 360 focado no Kinect colocava o jogador a fazer rafting, saltos e desvios usando o corpo inteiro numa pista de obstáculos?",
+    "opcoes": [
+      "A) Kinect Sports",
+      "B) Kinect Adventures!",
+      "C) Dance Central",
+      "D) Sonic Free Riders"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Kinect Adventures! vinha incluído em todas as caixas do sensor Kinect, tornando-se o jogo mais vendido da consola por associação."
+  },
+  {
+    "id": 98,
+    "pergunta": "Qual o nome do aclamado RPG desenvolvido pela Obsidian Entertainment que levou a franquia Fallout para a região de Nevada no Xbox 360?",
+    "opcoes": [
+      "A) Fallout 3",
+      "B) Fallout: New Vegas",
+      "C) Fallout 4",
+      "D) The Outer Worlds"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Fallout: New Vegas expandiu imenso a árvore de escolhas e reputações das fações face ao jogo anterior."
+  },
+  {
+    "id": 99,
+    "pergunta": "Qual o nome do jogo de plataformas 2D super difícil do XBLA cujo protagonista é um cubo de carne que tenta salvar a sua namorada feita de ligaduras?",
+    "opcoes": [
+      "A) Super Meat Boy",
+      "B) The Binding of Isaac",
+      "C) Spelunky",
+      "D) Castle Crashers"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Super Meat Boy foi desenhado para exigir precisão cirúrgica e punia o jogador com mortes hilariantes repetidas em loops rápidos."
+  },
+  {
+    "id": 100,
+    "pergunta": "Qual RPG de fantasia medieval em mundo aberto da Bethesda quebrou recordes no Xbox 360 em 2011 e popularizou o grito 'Fus Ro Dah'?",
+    "opcoes": [
+      "A) Oblivion",
+      "B) The Witcher 2",
+      "C) Dragon Age II",
+      "D) The Elder Scrolls V: Skyrim"
+    ],
+    "resposta_correta": "D",
+    "curiosidade": "Skyrim foi um sucesso colossal e a versão do Xbox 360 recebeu expansões temporariamente exclusivas de grande peso (Dawnguard/Dragonborn)."
+  },
+  {
+    "id": 101,
+    "pergunta": "Qual foi a terceira iteração principal de Gears of War que encerrou a trilogia original liderada por Marcus Fenix em 2011?",
+    "opcoes": [
+      "A) Gears of War: Judgment",
+      "B) Gears of War 3",
+      "C) Gears of War 4",
+      "D) Gears Tactics"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Gears of War 3 introduziu um modo cooperativo completo para até 4 jogadores na campanha principal e o renovado Modo Horda 2.0."
+  },
+  {
+    "id": 102,
+    "pergunta": "Qual jogo indie de sobrevivência e construção em blocos voxel foi portado para o Xbox 360 em 2012 pela 4J Studios, tornando-se um sucesso instantâneo na consola?",
+    "opcoes": [
+      "A) Terraria",
+      "B) Minecraft: Xbox 360 Edition",
+      "C) Roblox",
+      "D) Ark: Survival Evolved"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Minecraft no Xbox 360 bateu recordes de vendas digitais no XBLA no seu primeiro dia de lançamento no mercado."
+  },
+  {
+    "id": 103,
+    "pergunta": "Qual jogo hack 'n slash da PlatinumGames no Xbox 360 apresentava uma bruxa elegante que usava o seu cabelo como vestuário e armas nos saltos?",
+    "opcoes": [
+      "A) Bayonetta",
+      "B) Devil May Cry",
+      "C) Lollipop Chainsaw",
+      "D) Vanquish"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "A versão Xbox 360 de Bayonetta corre a 60 FPS fixos e é considerada muito superior à conversão simultânea da PS3."
+  },
+  {
+    "id": 104,
+    "pergunta": "Qual jogo da Rockstar Games se passava no fim do Velho Oeste americano e trazia o memorável protagonista John Marston?",
+    "opcoes": [
+      "A) Red Dead Revolver",
+      "B) Red Dead Redemption",
+      "C) L.A. Noire",
+      "D) Bully"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Red Dead Redemption foi aclamado pela sua história trágica, mundo aberto vivo e a expansão standalone com temática zombie 'Undead Nightmare'."
+  },
+  {
+    "id": 105,
+    "pergunta": "Qual jogo do Xbox 360, desenvolvido pela Capcom, misturava ficção científica ocidental com robôs gigantes (Vital Suits) e monstros nativos num planeta gelado chamado E.D.N. III?",
+    "opcoes": [
+      "A) Lost Planet: Extreme Condition",
+      "B) Dead Rising",
+      "C) Monster Hunter",
+      "D) Binary Domain"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Lost Planet foi inicialmente um exclusivo temporário de peso do Xbox 360, tirando grande partido da arquitetura de múltiplos núcleos da consola."
+  },
+  {
+    "id": 106,
+    "pergunta": "Qual jogo musical periférico da Harmonix permitia tocar bateria, guitarra e cantar em simultâneo com amigos na geração 360?",
+    "opcoes": [
+      "A) Guitar Hero III",
+      "B) Rock Band",
+      "C) SingStar",
+      "D) DJ Hero"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Rock Band expandiu o conceito de Guitar Hero ao criar periféricos para uma banda de garagem virtual inteira dentro da sala de estar."
+  },
+  {
+    "id": 107,
+    "pergunta": "Qual jogo de terror psicológico na primeira pessoa decorria numa cidade subaquática utópica decadente chamada Rapture?",
+    "opcoes": [
+      "A) BioShock",
+      "B) Singularity",
+      "C) Dead Space",
+      "D) Metro 2033"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "BioShock (2007) impactou a indústria pela sua crítica social, reviravolta no enredo ('Would you kindly?') e design artístico Art Deco."
+  },
+  {
+    "id": 108,
+    "pergunta": "Qual jogo do XBLA, no estilo beat 'em up cooperativo de scroll lateral de desenhos animados, trazia 4 cavaleiros de cores diferentes que salvavam princesas?",
+    "opcoes": [
+      "A) Castle Crashers",
+      "B) BattleBlock Theater",
+      "C) Scott Pilgrim vs. The World",
+      "D) Shank"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Desenvolvido pela The Behemoth, Castle Crashers foi um dos maiores êxitos cooperativos locais de sofá da história da Xbox Live."
+  },
+  {
+    "id": 109,
+    "pergunta": "Como se chama a prequela spin-off de Gears of War lançada em 2013 que foca na perspetiva do jovem Damon Baird antes do surto Locust principal?",
+    "opcoes": [
+      "A) Gears of War: Tactics",
+      "B) Gears of War: Judgment",
+      "C) Gears of War 4",
+      "D) Gears of War: Raam's Shadow"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Gears of War: Judgment foi co-desenvolvido pela People Can Fly e trouxe mudanças drásticas na estrutura de missões e no modo multijogador."
+  },
+  {
+    "id": 110,
+    "pergunta": "Qual jogo de tiro em terceira pessoa focado em ficção científica da PlatinumGames permitia ao jogador deslizar pelos cenários a alta velocidade usando um fato propulsor (ARS)?",
+    "opcoes": [
+      "A) Vanquish",
+      "B) Binary Domain",
+      "C) Max Payne 3",
+      "D) Gears of War"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Vanquish é famoso pelo seu ritmo frenético e direção de ação cinemática comandada pelo lendário Shinji Mikami."
+  },
+  {
+    "id": 111,
+    "pergunta": "Qual foi a grande inovação estética do Xbox 360 Fat que permitia aos utilizadores mudarem o aspeto físico da parte frontal da consola?",
+    "opcoes": [
+      "A) Troca de coolers coloridos",
+      "B) Painéis frontais removíveis (Faceplates)",
+      "C) Luzes LED customizáveis por software",
+      "D) Tampas de disco rígido transparentes"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A Microsoft e várias marcas terceiras venderam milhares de Faceplates temáticas de jogos como Halo, Red Dead e Gears para personalizar a consola."
+  },
+  {
+    "id": 112,
+    "pergunta": "Quem era o executivo da Microsoft conhecido por tatuar os logos de Grand Theft Auto IV e Peter Moore no braço para anunciar os jogos na E3?",
+    "opcoes": [
+      "A) Phil Spencer",
+      "B) Don Mattrick",
+      "C) Peter Moore",
+      "D) Major Nelson"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "Peter Moore usou estas tatuagens temporárias falsas em conferências lendárias da E3 para chocar e empolgar o público com os novos anúncios."
+  },
+  {
+    "id": 113,
+    "pergunta": "Como se chamava a interface oficial (sistema operativo) de lançamento do Xbox 360 em 2005, que dividia o menu em 'Blades' (Abas verticais)?",
+    "opcoes": [
+      "A) NXE (New Xbox Experience)",
+      "B) Metro UI",
+      "C) Blades Dashboard",
+      "D) Windows Media Center"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "A Dashboard original das Blades é recordada com imensa nostalgia devido à sua velocidade e aos efeitos sonoros característicos ao alternar de aba."
+  },
+  {
+    "id": 114,
+    "pergunta": "Em 2008, o Xbox 360 recebeu uma atualização massiva de sistema chamada NXE. O que introduziu esta nova interface?",
+    "opcoes": [
+      "A) Suporte a discos Blu-ray",
+      "B) Os Avatares digitais customizáveis e o fim da interface de Blades",
+      "C) A exclusão total da Xbox Live",
+      "D) O navegador Internet Explorer"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A New Xbox Experience (NXE) modernizou a consola, adicionando os Avatares inspirados nos Miis da Nintendo para criar uma identidade virtual."
+  },
+  {
+    "id": 115,
+    "pergunta": "Qual o pseudónimo (Gamertag) de Larry Hryb, o diretor de programação da Xbox Live que se tornou a voz oficial da comunidade Xbox?",
+    "opcoes": [
+      "A) Major Nelson",
+      "B) XboxPope",
+      "C) MasterChief_1",
+      "D) UnclePhil"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Major Nelson manteve um blogue e podcasts semanais durante toda a geração, revelando novidades, promoções e contagens decrescentes para lançamentos."
+  },
+  {
+    "id": 116,
+    "pergunta": "Quantos pontos de Gamerscore (G) recebia, por padrão, um jogador que completasse todas as conquistas base de um jogo físico de retalho no lançamento?",
+    "opcoes": [
+      "A) 100 G",
+      "B) 500 G",
+      "C) 1000 G",
+      "D) 2000 G"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "O limite inicial padrão era 1000G distribuídos por até 50 conquistas, valor que mais tarde foi expandido com o lançamento de DLCs."
+  },
+  {
+    "id": 117,
+    "pergunta": "Quantos pontos de Gamerscore (G) tinham originalmente os jogos digitais menores do Xbox Live Arcade (XBLA) no início da geração?",
+    "opcoes": [
+      "A) 200 G",
+      "B) 400 G",
+      "C) 500 G",
+      "D) 1000 G"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Os jogos do XBLA começaram limitados a 200G para marcar a separação competitiva face aos lançamentos em disco físico, subindo mais tarde para 400G."
+  },
+  {
+    "id": 118,
+    "pergunta": "Qual foi a primeira conquista (Achievement) secreta e controversa da história, que dava exatamente 0G ao jogador por morrer 5 vezes seguidas?",
+    "opcoes": [
+      "A) Guitar Hero III - 'The Hardest Button to Button'",
+      "B) Kameo - 'A New Hero'",
+      "C) Quake 4 - 'Welcome to the Arena'",
+      "D) The Simpsons Game - 'Press START to Play'"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Alguns jogos usavam conquistas de 0G de forma humorística ou para sinalizar falhas bizarras e engraçadas dos jogadores."
+  },
+  {
+    "id": 119,
+    "pergunta": "Como se chamava a moeda digital proprietária que os utilizadores compravam com dinheiro real para adquirir jogos e DLCs na loja do Xbox 360?",
+    "opcoes": [
+      "A) Xbox Coins",
+      "B) Microsoft Points (MSP)",
+      "C) Live Bucks",
+      "D) Game Gold"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Os Microsoft Points eram criticados porque a conversão matemática para moedas reais (como Euro ou Real) era confusa e deixava sempre saldos quebrados."
+  },
+  {
+    "id": 120,
+    "pergunta": "O sensor Kinect bateu um recorde mundial do Guinness em 2011 após o seu lançamento. Qual foi o recorde?",
+    "opcoes": [
+      "A) O periférico com mais fios da história",
+      "B) O dispositivo eletrónico de consumo mais vendido mais rapidamente no mercado",
+      "C) O maior sensor de movimento feito em plástico",
+      "D) O hardware com mais jogos de dança criados"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O Kinect vendeu uns impressionantes 8 milhões de unidades nos seus primeiros 60 dias nas lojas de todo o mundo."
+  },
+  {
+    "id": 121,
+    "pergunta": "A Microsoft lançou uma versão extremamente luxuosa do comando do Xbox 360 banhada a um material precioso real. Que material era?",
+    "opcoes": [
+      "A) Platina Maciça",
+      "B) Ouro de 24 Quilates",
+      "C) Fibra de Carbono Aeroespacial",
+      "D) Titânio"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Edições ultra-limitadas em ouro real foram fabricadas pela Microsoft e por terceiros para brindes promocionais e colecionadores de elite."
+  },
+  {
+    "id": 122,
+    "pergunta": "Qual era o som padrão emitido pelo hardware do 'Xbox 360 S' (Slim) de edição limitada de Star Wars ao tocar no botão de ligar?",
+    "opcoes": [
+      "A) O rugido de um Chewbacca",
+      "B) O bip característico do robô R2-D2",
+      "C) O som de ativação de um Sabre de Luz",
+      "D) A respiração do Darth Vader"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O console temático do R2-D2 trazia uma carcaça azul e branca brilhante e emitia os bips icónicos do robô ao ligar e ao ejetar a bandeja."
+  },
+  {
+    "id": 123,
+    "pergunta": "Qual foi a série de drama policial americana onde o console Xbox 360 foi bizarramente citado numa cena cómica onde uma personagem dizia 'Vou jogar no meu 360'?",
+    "opcoes": [
+      "A) Breaking Bad",
+      "B) CSI: NY",
+      "C) Law & Order: SVU",
+      "D) The Wire"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O diálogo tornou-se um meme clássico na internet devido ao roteiro forçado focado em expor tecnologias de gaming de forma caricata na TV."
+  },
+  {
+    "id": 124,
+    "pergunta": "A primeira grande Xbox Live Arcade Wednesay (Quarta-feira do XBLA) disparou as vendas digitais. Qual foi o primeiro grande fenómeno de puzzle lançado nesse programa?",
+    "opcoes": [
+      "A) Peggle",
+      "B) Geometry Wars: Retro Evolved",
+      "C) Hexic HD",
+      "D) Zuma"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Geometry Wars nasceu como um minijogo secreto dentro do Project Gotham Racing 2 e tornou-se um hit frenético standalone no 360."
+  },
+  {
+    "id": 125,
+    "pergunta": "Qual era o nome do jogo de quebra-cabeças geométrico criado por Alexey Pajitnov (criador do Tetris) que vinha pré-instalado em muitos discos rígidos do Xbox 360 Fat?",
+    "opcoes": [
+      "A) Bejeweled",
+      "B) Hexic HD",
+      "C) Lumines Live!",
+      "D) Uno"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Hexic HD desafiava o jogador a rodar hexágonos de cores para criar aglomerados e era uma excelente distração nativa no console."
+  },
+  {
+    "id": 126,
+    "pergunta": "A Microsoft gastou uma quantia estimada em mais de 1 bilhão de dólares para resolver qual problema do Xbox 360?",
+    "opcoes": [
+      "A) Processos de direitos de autor da Bungie",
+      "B) O programa de garantias e reparações em massa do Red Ring of Death (RROD)",
+      "C) A compra de estúdios independentes de Indie",
+      "D) O desenvolvimento falhado do HD-DVD"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O CEO Steve Ballmer aprovou o fundo bilionário para estender a garantia para 3 anos e pagar os envios de consoles defeituosos de volta à fábrica."
+  },
+  {
+    "id": 127,
+    "pergunta": "Qual era a cor oficial dos estojos (caixas de plástico) onde vinham armazenados os discos de jogos físicos do Xbox 360?",
+    "opcoes": [
+      "A) Azul Transparente",
+      "B) Verde Translúcido",
+      "C) Preto Fosco",
+      "D) Cinzento Claro"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O plástico verde brilhante tornou-se a assinatura visual definitiva das prateleiras de jogos da Microsoft na sétima geração."
+  },
+  {
+    "id": 128,
+    "pergunta": "Qual aplicação multimédia nativa do Windows permitia sincronizar o PC com o Xbox 360 para fazer streaming de vídeos e músicas via rede local?",
+    "opcoes": [
+      "A) Windows Media Center Extender",
+      "B) Zune Player",
+      "C) Windows Movie Maker",
+      "D) OneDrive"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O console atuava como um receptor potente na sala, permitindo aceder a todo o conteúdo multimédia armazenado no computador do quarto."
+  },
+  {
+    "id": 129,
+    "pergunta": "Que marca de reprodutor de música portátil e serviço digital da Microsoft tentou competir com o iPod e teve integração total na Dashboard do Xbox 360?",
+    "opcoes": [
+      "A) MSN Music",
+      "B) Zune",
+      "C) Groove Music",
+      "D) Windows Media Player 11"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O Zune Marketplace substituiu o reprodutor de vídeo nativo na Dashboard antes de a Microsoft transitar os serviços para o ecossistema Xbox Video."
+  },
+  {
+    "id": 130,
+    "pergunta": "Que jogo do Xbox Live Arcade era jogado inteiramente com cartas físicas reais detetadas através da câmera original Xbox Live Vision?",
+    "opcoes": [
+      "A) Uno",
+      "B) TotemBall",
+      "C) You're in the Movies",
+      "D) Texas Hold'em"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O jogo Uno permitia o uso da câmera Vision para exibir o rosto dos jogadores na mesa digital, criando situações hilariantes e caóticas online."
+  },
+  {
+    "id": 131,
+    "pergunta": "Como se chamava a secção aberta da loja do Xbox 360 lançada em 2008 que permitia a qualquer pessoa publicar os seus próprios jogos criados no XNA Creators Club?",
+    "opcoes": [
+      "A) Xbox Indie Games (XBLIG)",
+      "B) Steam Greenlight",
+      "C) Xbox Arcade Prime",
+      "D) OpenSource Market"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "A loja Xbox Independent Games era cheia de pérolas bizarras, jogos experimentais de terror focado em avatares e clones baratos de Minecraft."
+  },
+  {
+    "id": 132,
+    "pergunta": "Qual o nome do serviço por assinatura da Electronic Arts lançado originalmente em exclusivo no console Xbox em 2014?",
+    "opcoes": [
+      "A) EA Access (hoje EA Play)",
+      "B) EA Passport",
+      "C) Origin Premium",
+      "D) EA Gold Network"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "A Sony recusou o serviço na PS4 inicialmente por achar que não agregava valor, dando ao Xbox uma excelente biblioteca rotativa de desporto e ação."
+  },
+  {
+    "id": 133,
+    "pergunta": "A última atualização visual oficial da Dashboard do Xbox 360, lançada em 2011, foi fortemente inspirada em qual sistema operativo de PC?",
+    "opcoes": [
+      "A) Windows XP",
+      "B) Windows 7",
+      "C) Windows 8 (Interface Metro/Tiles)",
+      "D) Windows Vista"
+    ],
+    "resposta_correta": "C",
+    "curiosidade": "A interface em 'Mosaicos' (Tiles) facilitava a navegação rápida por comandos de voz do Kinect e unificou o ecossistema visual da Microsoft."
+  },
+  {
+    "id": 134,
+    "pergunta": "Qual o nome do minúsculo periférico acessório que se encaixava por baixo do comando do Xbox 360 para permitir digitação rápida de mensagens em texto?",
+    "opcoes": [
+      "A) Chatpad",
+      "B) MiniKeyboard",
+      "C) Xbox Type",
+      "D) TextPad"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O Chatpad iluminava-se no escuro e continha até botões dedicados para abrir abas de mensagens e capturar amigos online."
+  },
+  {
+    "id": 135,
+    "pergunta": "Qual foi a icónica desenvolvedora de jogos que lançou o aclamado pacote 'The Orange Box' contendo Half-Life 2 e Portal no Xbox 360?",
+    "opcoes": [
+      "A) Epic Games",
+      "B) Valve",
+      "C) id Software",
+      "D) Bethesda"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "The Orange Box é considerada uma das compilações com melhor custo-benefício e impacto crítico de toda a história dos videojogos."
+  },
+  {
+    "id": 136,
+    "pergunta": "Quem foi o jogador polaco-americano conhecido por ser a primeira pessoa no mundo a ultrapassar a impressionante marca de 1 milhão de pontos de Gamerscore?",
+    "opcoes": [
+      "A) Stallion83 (Raymond Cox)",
+      "B) Fatal1ty",
+      "C) Ninja",
+      "D) Major_Tom"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Raymond Cox (Stallion83) atingiu a marca histórica em março de 2014, recebendo da Microsoft uma assinatura vitalícia da Xbox Live Gold."
+  },
+  {
+    "id": 137,
+    "pergunta": "Como se chamava a ferramenta oficial da Microsoft para PC que permitia criar temas visuais estáticos e transferi-los via pen drive para o Xbox 360?",
+    "opcoes": [
+      "A) Xbox Theme Studio",
+      "B) Horizon Designer",
+      "C) Paint 3D",
+      "D) Modio Theme Maker"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Ferramentas oficiais e de terceiros mantiveram a comunidade engajada a criar papéis de parede em alta definição divididos pelas abas do menu."
+  },
+  {
+    "id": 138,
+    "pergunta": "Que jogo do Xbox 360 incluía um código especial na embalagem que garantia o acesso exclusivo à Beta fechada multijogador de Halo 3 em 2007?",
+    "opcoes": [
+      "A) Gears of War",
+      "B) Crackdown",
+      "C) Mass Effect",
+      "D) Forza Motorsport 2"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "As vendas do primeiro Crackdown dispararam massivamente porque os fãs hardcore de Halo compraram o jogo apenas para garantir o convite da Beta."
+  },
+  {
+    "id": 139,
+    "pergunta": "O Xbox 360 foi desenhado originalmente com uma curvatura côncava na carcaça por qual motivo artístico sugerido pelos designers?",
+    "opcoes": [
+      "A) Simular a ação de 'inspirar ar profundamente' (Inhale)",
+      "B) Encaixar melhor em suportes de TV",
+      "C) Reduzir os custos de moldagem de plástico",
+      "D) Dar espaço para ventoinhas maiores nas laterais"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "A agência Astro Studios desenhou as linhas curvas elegantes para passar a sensação de energia contida e prontidão focada num estilo de vida ativo."
+  },
+  {
+    "id": 140,
+    "pergunta": "Qual o nome do periférico em formato de comando de aviação lançado pela Microsoft junto com o jogo exclusivo 'Ace Combat 6'?",
+    "opcoes": [
+      "A) Ace Flight Stick",
+      "B) T.Flight Hotas",
+      "C) Xbox Flight System",
+      "D) Ace Combat Flight Control"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O comando incluía manete de potência e manche separados, idealizado para simular a cabine de caças militares reais na sala de estar."
+  },
+  {
+    "id": 141,
+    "pergunta": "Qual foi a famosa marca de refrigerantes que fez uma promoção massiva dando consoles Xbox 360 exclusivos de cor laranja em 2005?",
+    "opcoes": [
+      "A) Coca-Cola",
+      "B) Mountain Dew",
+      "C) Pepsi",
+      "D) Fanta"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A edição Mountain Dew 'Every 10 Minutes' distribuiu milhares de consoles antes do lançamento oficial nas lojas americanas."
+  },
+  {
+    "id": 142,
+    "pergunta": "Para além do Kinect, o Xbox 360 recebeu um periférico focado em jogos musicais com uma mesa de mistura real com prato giratório. Qual era o jogo?",
+    "opcoes": [
+      "A) DJ Hero",
+      "B) Guitar Hero: Mix",
+      "C) Rock Band Track",
+      "D) Beatmaker Live"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "DJ Hero foi um spin-off ambicioso da Activision focado em mashups de música eletrónica, hip-hop e pop usando um controlador giratório com botões."
+  },
+  {
+    "id": 143,
+    "pergunta": "Como se chamava a rede social virtual tridimensional e interativa que a Microsoft patenteou mas cancelou, onde avatares andavam por salas públicas?",
+    "opcoes": [
+      "A) PlayStation Home",
+      "B) Xbox Avatar Wave",
+      "C) Inside Xbox 3D",
+      "D) Avatar Marketplace Hub"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Embora a Sony tenha tido o PS Home, a Microsoft focou-se em embutir os avatares diretamente em jogos arcade de grupo, abandonando mundos virtuais abertos."
+  },
+  {
+    "id": 144,
+    "pergunta": "Qual o nome do canal de notícias em vídeo integrado na interface do Xbox 360 apresentado por Dan Maher e Andy Farrant no Reino Unido?",
+    "opcoes": [
+      "A) Inside Xbox",
+      "B) Xbox World TV",
+      "C) Pulse News",
+      "D) Major Nelson Report"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O Inside Xbox enviava atualizações em vídeo diárias diretamente para o menu da consola, cobrindo entrevistas com estúdios e guias de conquistas."
+  },
+  {
+    "id": 145,
+    "pergunta": "O que indicava a cor vermelha a piscar apenas no quadrante inferior direito do botão Power (1 única luz vermelha) num console Xbox 360 Fat?",
+    "opcoes": [
+      "A) Erro Crítico Geral de Hardware",
+      "B) Falha de leitura de vídeo ou cabo AV desconectado",
+      "C) Falha total no disco rígido",
+      "D) Sobreaquecimento momentâneo da memória"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "Ao contrário das temidas 3 luzes (RROD), uma ou duas luzes isoladas indicavam frequentemente problemas simples como cabos mal encaixados atrás da consola."
+  },
+  {
+    "id": 146,
+    "pergunta": "Qual jogo exclusivo do Xbox Live Arcade consistia em disputas multiplayer hilariantes de motocross baseadas puramente em física e tentativas de tempo?",
+    "opcoes": [
+      "A) Trials HD",
+      "B) Joe Danger",
+      "C) Motocross Madness",
+      "D) Mx vs Atv"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Trials HD, da RedLynx, tornou-se um dos jogos digitais mais viciantes do catálogo devido ao seu design de níveis brilhante e mortes exageradas por física ragdoll."
+  },
+  {
+    "id": 147,
+    "pergunta": "Como se chamava o programa oficial de fidelidade que dava recompensas em dinheiro (créditos) e avatares aos jogadores que gastassem dinheiro na Xbox Live Store?",
+    "opcoes": [
+      "A) Xbox Live Rewards",
+      "B) Game Pass Perks",
+      "C) Microsoft Club",
+      "D) Gold Gifts"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "O Xbox Live Rewards dava bónus de aniversário e pequenas percentagens de reembolso com base no Gamerscore acumulado e compras mensais."
+  },
+  {
+    "id": 148,
+    "pergunta": "Em termos de vendas globais acumuladas, o Xbox 360 terminou o seu ciclo de vida estimado com quantas unidades comercializadas?",
+    "opcoes": [
+      "A) Cerca de 50 Milhões",
+      "B) Cerca de 84 Milhões",
+      "C) Cerca de 100 Milhões",
+      "D) Cerca de 150 Milhões"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "O console vendeu aproximadamente 84 a 85 milhões de unidades, terminando praticamente empatado com a rival PlayStation 3 numa das gerações mais disputadas de sempre."
+  },
+  {
+    "id": 149,
+    "pergunta": "Qual estúdio fundado por Cliff Bleszinski criou a demonstração técnica e o jogo de tiro em arena 'Unreal Tournament 3' no Xbox 360?",
+    "opcoes": [
+      "A) People Can Fly",
+      "B) Epic Games",
+      "C) id Software",
+      "D) Monolith"
+    ],
+    "resposta_correta": "B",
+    "curiosidade": "A Epic Games usou o Xbox 360 como a sua principal vitrine para vender o motor gráfico Unreal Engine 3 para quase toda a indústria na altura."
+  },
+  {
+    "id": 150,
+    "pergunta": "Qual o nome do comando especial sem fios lançado para o Xbox 360 que permitia rodar mecanicamente o D-Pad (direcional cruzado) para transformá-lo num formato de disco saliente?",
+    "opcoes": [
+      "A) Xbox Transforming D-Pad Controller",
+      "B) Xbox Elite V1",
+      "C) Pro D-Pad Wireless Control",
+      "D) Xbox Matrix Pad"
+    ],
+    "resposta_correta": "A",
+    "curiosidade": "Este modelo cinzento com analógicos cromados resolveu uma das maiores queixas dos fãs de jogos de luta (Street Fighter), oferecendo diagonais muito mais precisas com um simples giro no D-Pad."
+  }
+]
